@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+}
+
+[class*='col-']{
+    float: left;
+    padding-top: 50px;
+}
+
+/* for mobile  */
+[class*='col-']{
+    width: 100%;
+}
+
+h1{
+    font-family: "Monoton", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+a{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.navbar{
+    background-color: #0c6168;
+    padding: 1% 0%;
+    text-align: center;
+}
+
+.navbar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
